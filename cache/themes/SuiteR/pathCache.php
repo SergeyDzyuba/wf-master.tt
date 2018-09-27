@@ -1,0 +1,1 @@
+a:4:{s:7:"jsCache";a:0:{}s:8:"cssCache";a:0:{}s:10:"imageCache";a:4:{s:23:"dashlet-header-edit.png";s:44:"themes/SuiteR/images/dashlet-header-edit.png";s:7:"cog.png";s:28:"themes/SuiteR/images/cog.png";s:16:"themePreview.png";s:37:"themes/SuiteR/images/themePreview.png";s:19:"actionMenuArrow.png";s:41:"themes/default/images/actionMenuArrow.png";}s:13:"templateCache";a:0:{}}
