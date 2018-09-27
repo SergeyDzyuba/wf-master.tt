@@ -28,16 +28,12 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
   * Description : Defines the Russian language pack for the base application.
   *********************************************************************************/
  // Replaced by RAPIRA <--
-
-$dashletStrings['CalendarDashlet'] = array(
-					'LBL_TITLE' => 'Мой календарь',
-                         'LBL_DESCRIPTION' => 'Календарь',
-                         'LBL_CONFIGURE_TITLE' => 'Заголовок',
-                         'LBL_CONFIGURE_VIEW' => 'Отображать',
-                         'LBL_SAVE_BUTTON_LABEL' => 'Сохранить',
-                         
-                         'LBL_VIEW_DAY' => 'День',
-                         'LBL_VIEW_WEEK' => 'Неделю',
-                         'LBL_VIEW_MONTH' => 'Месяц',
+ 
+$dashletStrings['InvadersDashlet'] = array(
+'LBL_TITLE' => 'Invaders!',
+'LBL_DESCRIPTION' => 'Для тех, кому не жалко своего времени',
+'LBL_DBLCLICK_HELP' => 'A - влево, D - вправо, S - огонь.',
+'LBL_START' => 'Начать игру',
+'LBL_GAME_OVER' => 'Игра окончена<br>(Попробовать ещё раз)',
 
 );

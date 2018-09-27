@@ -1,5 +1,4 @@
 <?php
-if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
 /*********************************************************************************
 
 * This program is free software; you can redistribute it and/or modify it under
@@ -29,15 +28,30 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
   *********************************************************************************/
  // Replaced by RAPIRA <--
 
-$dashletStrings['CalendarDashlet'] = array(
-					'LBL_TITLE' => 'Мой календарь',
-                         'LBL_DESCRIPTION' => 'Календарь',
-                         'LBL_CONFIGURE_TITLE' => 'Заголовок',
-                         'LBL_CONFIGURE_VIEW' => 'Отображать',
-                         'LBL_SAVE_BUTTON_LABEL' => 'Сохранить',
-                         
-                         'LBL_VIEW_DAY' => 'День',
-                         'LBL_VIEW_WEEK' => 'Неделю',
-                         'LBL_VIEW_MONTH' => 'Месяц',
-
+$mod_strings = array(
+  'LBL_ID' => 'ID',
+  'LBL_MODULE_NAME' => 'Группы',
+  'LBL_DATE_ENTERED' => 'Создано',
+  'LBL_DATE_MODIFIED' => 'Изменено',
+  'LBL_DESCRIPTION' => 'Описание',
+  'LBL_DELETED' => 'Удалена',
+  'LBL_NAME' => 'Группа',
+  'LBL_TOTAL_AMT' => 'Итого без скидки',
+  'LBL_DISCOUNT_AMOUNT' => 'Скидка',
+  'LBL_SUBTOTAL_AMOUNT' => 'Итого со скидкой',
+  'LBL_TAX_AMOUNT' => 'Всего НДС',
+  'LBL_SUBTOTAL_TAX_AMOUNT' => 'Итого с учётом скидки и НДС',
+  'LBL_GROUP_TOTAL' => 'ИТОГО С НДС',
+  'LBL_LIST_NUM' => '№',
+  
+  'LBL_SUBTOTAL_AMOUNT_USDOLLAR' => 'Итого со скидкой (основная валюта)',
+  'LBL_DISCOUNT_AMOUNT_USDOLLAR' => 'Скидка (основная валюта)',
+  'LBL_TAX_AMOUNT_USDOLLAR' => 'Всего НДС (основная валюта)',
+  'LBL_TOTAL_AMT_USDOLLAR' => 'Итого без скидки (основная валюта)',
+  'LBL_GROUP_TOTAL_USDOLLAR' => 'ИТОГО С НДС (основная валюта)',
+  'LBL_SUBTOTAL_TAX_AMOUNT_USDOLLAR' => 'Итого с учётом скидки и НДС (основная валюта)',
+   
+   'LBL_PARENT_ID' => 'ID родителя',
+   'AOS_PRODUCT_QUOTES' => 'Предложение-Товары',
+  
 );

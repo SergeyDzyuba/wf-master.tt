@@ -28,16 +28,29 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
   * Description : Defines the Russian language pack for the base application.
   *********************************************************************************/
  // Replaced by RAPIRA <--
-
-$dashletStrings['CalendarDashlet'] = array(
-					'LBL_TITLE' => 'Мой календарь',
-                         'LBL_DESCRIPTION' => 'Календарь',
-                         'LBL_CONFIGURE_TITLE' => 'Заголовок',
-                         'LBL_CONFIGURE_VIEW' => 'Отображать',
-                         'LBL_SAVE_BUTTON_LABEL' => 'Сохранить',
-                         
-                         'LBL_VIEW_DAY' => 'День',
-                         'LBL_VIEW_WEEK' => 'Неделю',
-                         'LBL_VIEW_MONTH' => 'Месяц',
-
+ 
+$mod_strings = array(
+'LBL_MODULE_NAME' => 'Версии' ,
+'LBL_MODULE_TITLE' => 'Версии - ГЛАВНАЯ' ,
+'LBL_SEARCH_FORM_TITLE' => 'Поиск версий' ,
+'LBL_LIST_FORM_TITLE' => 'Список версий' ,
+'LBL_NEW_FORM_TITLE' => 'Новая версия' ,
+'LBL_RELEASE' => 'Версия:' ,
+'LBL_LIST_NAME' => 'Версия' ,
+'LBL_NAME' => 'Версия:' ,
+'LBL_LIST_LIST_ORDER' => 'Порядок' ,
+'LBL_LIST_ORDER' => 'Порядок:' ,
+'LBL_LIST_STATUS' => 'Статус' ,
+'LBL_STATUS' => 'Статус:' ,
+'LNK_NEW_RELEASE' => 'Список версий' ,
+'NTC_DELETE_CONFIRMATION' => 'Вы уверены, что хотите удалить эту запись?' ,
+'ERR_DELETE_RECORD' => 'Вы должны указать запись для удаления версии.' ,
+'NTC_STATUS' => 'Установите статус на "Не активна" для удаления этой версии из списка' ,
+'NTC_LIST_ORDER' => 'Установить порядок следования версий' ,
+'release_status_dom' =>
+array(
+'Active' => 'Активна' ,
+'Inactive' => 'Не активна'   ,
+),
+'LBL_EDITLAYOUT' => 'Изменить макет' /*for 508 compliance fix*/,
 );

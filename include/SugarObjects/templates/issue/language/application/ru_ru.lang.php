@@ -1,5 +1,4 @@
 <?php
-if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
 /*********************************************************************************
 
 * This program is free software; you can redistribute it and/or modify it under
@@ -28,16 +27,38 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
   * Description : Defines the Russian language pack for the base application.
   *********************************************************************************/
  // Replaced by RAPIRA <--
+ 
+$object_name = strtolower($object_name);
+$app_list_strings = array(
 
-$dashletStrings['CalendarDashlet'] = array(
-					'LBL_TITLE' => 'Мой календарь',
-                         'LBL_DESCRIPTION' => 'Календарь',
-                         'LBL_CONFIGURE_TITLE' => 'Заголовок',
-                         'LBL_CONFIGURE_VIEW' => 'Отображать',
-                         'LBL_SAVE_BUTTON_LABEL' => 'Сохранить',
-                         
-                         'LBL_VIEW_DAY' => 'День',
-                         'LBL_VIEW_WEEK' => 'Неделю',
-                         'LBL_VIEW_MONTH' => 'Месяц',
-
+$object_name.'_type_dom' =>
+array(
+'Administration' => 'Ведение',
+'Product' => 'Результат',
+'User' => 'Клиентское',
+),
+$object_name.'_status_dom' =>
+array(
+'New' => 'Новое' ,
+'Assigned' => 'Назначенное' ,
+'Closed' => 'Закрытое' ,
+'Pending Input' => 'Ожидание решения' ,
+'Rejected' => 'Отклонённое'    ,
+'Duplicate' => 'Дублировать' ,
+),
+$object_name.'_priority_dom' =>
+array(
+'P1' => 'Высокий' ,
+'P2' => 'Средний' ,
+'P3' => 'Низкий'    ,
+),
+$object_name.'_resolution_dom' =>
+array(
+'' => '' ,
+'Accepted' => 'Принято' ,
+'Duplicate' => 'Дублировать' ,
+'Closed' => 'Закрытое' ,
+'Out of Date' => 'Устарело' ,
+'Invalid' => 'Недействительно' ,
+),
 );

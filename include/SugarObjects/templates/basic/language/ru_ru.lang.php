@@ -1,5 +1,4 @@
 <?php
-if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
 /*********************************************************************************
 
 * This program is free software; you can redistribute it and/or modify it under
@@ -28,16 +27,29 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
   * Description : Defines the Russian language pack for the base application.
   *********************************************************************************/
  // Replaced by RAPIRA <--
+ 
+$mod_strings = array(
+'LBL_ID' => 'ID',
+'LBL_DATE_ENTERED' => 'Дата создания',
+'LBL_DATE_MODIFIED' => 'Дата изменения',
+'LBL_MODIFIED' => 'Изменено',
+'LBL_MODIFIED_NAME' => 'Изменено',
+'LBL_CREATED' => 'Создано',
+'LBL_DESCRIPTION' => 'Описание',
+'LBL_DELETED' => 'Удалено',
+'LBL_NAME' => 'Название',
+'LBL_CREATED_USER' => 'Создано',
+'LBL_MODIFIED_USER' => 'Изменено',
+'LBL_LIST_NAME' => 'Название',
+'LBL_EDIT_BUTTON' => 'Править',
+'LBL_REMOVE' => 'Удалить',
+'LBL_ASCENDING' => 'Восходящая',
+'LBL_DESCENDING' => 'Нисходящая',
 
-$dashletStrings['CalendarDashlet'] = array(
-					'LBL_TITLE' => 'Мой календарь',
-                         'LBL_DESCRIPTION' => 'Календарь',
-                         'LBL_CONFIGURE_TITLE' => 'Заголовок',
-                         'LBL_CONFIGURE_VIEW' => 'Отображать',
-                         'LBL_SAVE_BUTTON_LABEL' => 'Сохранить',
-                         
-                         'LBL_VIEW_DAY' => 'День',
-                         'LBL_VIEW_WEEK' => 'Неделю',
-                         'LBL_VIEW_MONTH' => 'Месяц',
-
+// Emails
+'LBL_OPT_IN' => 'Подтвердить подписку',
+'LBL_OPT_IN_PENDING_EMAIL_NOT_SENT' => 'Ожидание подтверждения подписки, письмо с запросом на подтверждение НЕ отправлено.',
+'LBL_OPT_IN_PENDING_EMAIL_SENT' => 'Ожидание подтверждения подписки, отправлено письмо с запросом на подтверждение.',
+'LBL_OPT_IN_CONFIRMED' => 'Двойное подтверждение подписки.',
+	
 );

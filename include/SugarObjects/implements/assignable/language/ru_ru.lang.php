@@ -1,5 +1,4 @@
 <?php
-if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
 /*********************************************************************************
 
 * This program is free software; you can redistribute it and/or modify it under
@@ -28,16 +27,8 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
   * Description : Defines the Russian language pack for the base application.
   *********************************************************************************/
  // Replaced by RAPIRA <--
-
-$dashletStrings['CalendarDashlet'] = array(
-					'LBL_TITLE' => 'Мой календарь',
-                         'LBL_DESCRIPTION' => 'Календарь',
-                         'LBL_CONFIGURE_TITLE' => 'Заголовок',
-                         'LBL_CONFIGURE_VIEW' => 'Отображать',
-                         'LBL_SAVE_BUTTON_LABEL' => 'Сохранить',
-                         
-                         'LBL_VIEW_DAY' => 'День',
-                         'LBL_VIEW_WEEK' => 'Неделю',
-                         'LBL_VIEW_MONTH' => 'Месяц',
-
+ 
+$mod_strings = array(
+'LBL_ASSIGNED_TO_ID' => 'Ответственный(ая)',
+'LBL_ASSIGNED_TO_NAME' => 'Ответственный(ая)',
 );

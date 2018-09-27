@@ -28,16 +28,24 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
   * Description : Defines the Russian language pack for the base application.
   *********************************************************************************/
  // Replaced by RAPIRA <--
+ 
+$mod_strings = array(
+'LBL_MODULE_TITLE' => 'Мои сохранённые фильтры',
 
-$dashletStrings['CalendarDashlet'] = array(
-					'LBL_TITLE' => 'Мой календарь',
-                         'LBL_DESCRIPTION' => 'Календарь',
-                         'LBL_CONFIGURE_TITLE' => 'Заголовок',
-                         'LBL_CONFIGURE_VIEW' => 'Отображать',
-                         'LBL_SAVE_BUTTON_LABEL' => 'Сохранить',
-                         
-                         'LBL_VIEW_DAY' => 'День',
-                         'LBL_VIEW_WEEK' => 'Неделю',
-                         'LBL_VIEW_MONTH' => 'Месяц',
+'LBL_SEARCH_FORM_TITLE' => 'Мои сохранённые фильтры : Фильтр',
+'LBL_LIST_FORM_TITLE' => 'Список фильтров',
+'LBL_DELETE_CONFIRM' => 'Вы действительно хотите удалить выбранный фильтр?',
+'LBL_DELETE_BUTTON_TITLE' => 'Удалить эти условия фильтрации',
+'LBL_SAVE_BUTTON_TITLE' => 'Сохранить текущий фильтр',
+'LBL_LIST_NAME' => 'Имя',
+'LBL_LIST_MODULE' => 'Модуль',
+'LBL_ORDER_BY_COLUMNS' => 'Сортировать по колонке:',
+'LBL_DIRECTION' => 'Сортировка:',
+'LBL_SAVE_SEARCH_AS' => 'Сохранить фильтр как:',
+'LBL_ASCENDING' => 'Восходящая',
+'LBL_DESCENDING' => 'Нисходящая',
+'LBL_MODIFY_CURRENT_FILTER' => 'Выбранный фильтр',
+
+'LBL_CREATED_BY' => 'Кем создано',
 
 );

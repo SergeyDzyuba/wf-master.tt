@@ -1,5 +1,4 @@
 <?php
-if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
 /*********************************************************************************
 
 * This program is free software; you can redistribute it and/or modify it under
@@ -28,16 +27,15 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
   * Description : Defines the Russian language pack for the base application.
   *********************************************************************************/
  // Replaced by RAPIRA <--
+ 
+    if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
 
-$dashletStrings['CalendarDashlet'] = array(
-					'LBL_TITLE' => 'Мой календарь',
-                         'LBL_DESCRIPTION' => 'Календарь',
-                         'LBL_CONFIGURE_TITLE' => 'Заголовок',
-                         'LBL_CONFIGURE_VIEW' => 'Отображать',
-                         'LBL_SAVE_BUTTON_LABEL' => 'Сохранить',
-                         
-                         'LBL_VIEW_DAY' => 'День',
-                         'LBL_VIEW_WEEK' => 'Неделю',
-                         'LBL_VIEW_MONTH' => 'Месяц',
+    $connector_strings = array(
+        //Vardef labels
+        'LBL_LICENSING_INFO' => '<table border="0" cellspacing="1"><tr><th valign="top" width="35%" class="dataLabel">Приложение Facebook</th></tr>
+                                    <tr><td width="35%" class="dataLabel">Детальная информация о создании приложения находится <a href=https://developers.facebook.com/?ref=pf">здесь</a>.</td></tr></table>',
 
-);
+        //Configuration labels
+        'appid' => 'Facebook App ID ',
+        'secret' => 'Facebook App Secret ',
+    );

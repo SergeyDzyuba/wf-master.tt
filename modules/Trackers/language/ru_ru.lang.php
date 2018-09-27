@@ -28,16 +28,19 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
   * Description : Defines the Russian language pack for the base application.
   *********************************************************************************/
  // Replaced by RAPIRA <--
+ 
+$mod_strings = array(
+//Labels for methods in the TrackerReporter.php file that are shown in TrackerDashlet
 
-$dashletStrings['CalendarDashlet'] = array(
-					'LBL_TITLE' => 'Мой календарь',
-                         'LBL_DESCRIPTION' => 'Календарь',
-                         'LBL_CONFIGURE_TITLE' => 'Заголовок',
-                         'LBL_CONFIGURE_VIEW' => 'Отображать',
-                         'LBL_SAVE_BUTTON_LABEL' => 'Сохранить',
-                         
-                         'LBL_VIEW_DAY' => 'День',
-                         'LBL_VIEW_WEEK' => 'Неделю',
-                         'LBL_VIEW_MONTH' => 'Месяц',
 
+//Column header mapping
+'action' => 'Action',
+'date_modified' => 'Date of Last Action',
+'item_id' => 'ID',
+'item_summary' => 'Name',
+'module_name' => 'Module Name',
+'users' => 'Users',
+
+//Administration related labels
+'LBL_MODULE_NAME' => 'Trackers',
 );
